@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -48,14 +52,13 @@ p{
 }
 
 .col-2{
-    flex-basis: 60%;
+    flex-basis: 50%;
     min-width: 300px;
 }
 
 .col-2 img{
-    max-width: 40%;
-    padding: 70px 0;
-    margin-left: 200px
+    max-width: 100%;
+    padding: 50px 0;
 }
 
 .col-2 h1{
@@ -63,3 +66,26 @@ p{
     line-height: 60px;
     margin: 25px 0;
 }
+
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.header{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+
+.header .row{
+    margin-top: 70px;
+}
+
+.header .row p{
+    margin-top: 20px;
+}
+
+
