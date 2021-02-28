@@ -127,3 +127,58 @@ p{
     padding-right: 25px;
 }
 /*End Featured Categories*/
+
+/*Start Featured Products*/
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: .5s ease transform;
+}
+
+.col-4:hover{
+    transform: translateY(-5%);
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+
+.title{
+    color: #555;
+    margin: 0 auto 80px;
+    text-align: center;
+    position: relative;
+    line-height: 60px;
+}
+
+
+.title:after{
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 100px;
+    background: #ff523b;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;    
+    transform: translateX(-50%);
+}
+
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.rating i{
+    color: #ff523b;
+}
+
+.col-4 p{
+    font-size: 14px;
+}
+/*End Featured Products*/
