@@ -252,3 +252,28 @@ small{
     font-size: 16px;
 }
 /*End Testimonial Section*/
+
+
+/*Start Brand Section*/
+
+
+.brands{
+    margin: 100px 0;
+}
+
+.col-5{
+    width: 160px;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+
+/*End Brand Section*/
