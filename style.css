@@ -220,6 +220,8 @@ small{
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
     cursor: pointer;
     transition: .5s ease transform;
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 20px;
 }
 
 .testimonial .col-3:hover{
