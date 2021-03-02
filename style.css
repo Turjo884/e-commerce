@@ -359,3 +359,37 @@ ul{
     padding: 10px 0;
 }
 /*End Footer Section*/
+
+
+
+/*Start Media Query*/
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: transparent;
+        width: 100%;
+    }
+
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        content: fit-content;
+    }
+    
+    nav ul li:hover{
+        transform: translateX(5px);
+    }
+
+    nav ul li a{
+        color: #000;
+       
+    }
+
+}
+
+/*End Media Query*/
